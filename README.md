@@ -270,72 +270,6 @@ modbus_attack.exe 192.168.1.100
 
 ---
 
-# 📤 HOW TO UPLOAD TO GITHUB
-
-## Step 1: Create GitHub Account
-1. Go to: https://github.com
-2. Click "Sign up"
-3. Create account with your email
-
-## Step 2: Install Git
-1. Download Git: https://git-scm.com/download/win
-2. Run installer, accept defaults
-3. Verify: Open Command Prompt, type `git --version`
-
-## Step 3: Create New Repository on GitHub
-1. Login to GitHub
-2. Click **+** (top right) → **New repository**
-3. Fill in:
-   - **Repository name:** `modbus-tcp-attack-suite`
-   - **Description:** `Modbus/TCP Attack Simulation for ICS Security Research`
-   - **Public** (or Private)
-   - ✅ Add a README file (uncheck if uploading existing)
-4. Click **Create repository**
-
-## Step 4: Upload Files via Web Interface (Easiest)
-1. Open your new repository
-2. Click **Add file** → **Upload files**
-3. Drag and drop all files:
-   - `Modbus_attack.c`
-   - `compile.bat`
-   - `README.md`
-   - `LICENSE`
-   - `images/` folder
-4. Write commit message: "Initial commit - Modbus/TCP Attack Suite"
-5. Click **Commit changes**
-
-## Step 5: Upload via Command Line (Alternative)
-```bash
-# Navigate to your folder
-cd C:\path\to\modbus-tcp-attack-suite
-
-# Initialize git repository
-git init
-
-# Add all files
-git add .
-
-# Commit files
-git commit -m "Initial commit - Modbus/TCP Attack Suite"
-
-# Add remote repository (replace with your URL)
-git remote add origin https://github.com/YOUR_USERNAME/modbus-tcp-attack-suite.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-## Step 6: Upload Pre-compiled EXE (Releases)
-1. Go to your repository
-2. Click **Releases** (right side)
-3. Click **Create a new release**
-4. Tag: `v1.0.0`
-5. Title: `v1.0.0 - Initial Release`
-6. Drag `modbus_attack.exe` to upload
-7. Click **Publish release**
-
----
 
 # 📊 MITRE ATT&CK Mapping Table
 
@@ -381,10 +315,7 @@ MIT License - See [LICENSE](LICENSE) file.
 # 📧 Contact
 
 - **Mahmoud A. Khalifa** - mzian@psu.edu.sa (Corresponding Author)
-- **Ahmad Taher Azar** - aazar@psu.edu.sa
-- **Walid El-Shafai** - welshafai@psu.edu.sa
 
-**Automated Systems and Computing Lab (ASCL)**  
 Prince Sultan University, Riyadh, Saudi Arabia
 
 ---
