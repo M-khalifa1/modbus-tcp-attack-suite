@@ -31,8 +31,9 @@ This repository contains the source code for a **Modbus/TCP attack simulation su
 
 | Video | Description | Link |
 |-------|-------------|------|
-| **Part 1** | Compilation Tutorial | [Google drive]([https://drive.google.com/file/d/13p_EJs-P9c-XSILy_y-K5nmcICZMQA7r/view?usp=drive_link)]|
-| **Part 2** | Attack Execution Demo | [Google drive]([https://drive.google.com/file/d/13p_EJs-P9c-XSILy_y-K5nmcICZMQA7r/view?usp=drive_link)|
+| **Part 1** | Compilation Tutorial | [YouTube](https://drive.google.com/file/d/13p_EJs-P9c-XSILy_y-K5nmcICZMQA7r/view?usp=drive_link) |
+| **Part 2** | Attack Execution Demo | [YouTube](https://drive.google.com/file/d/13p_EJs-P9c-XSILy_y-K5nmcICZMQA7r/view?usp=drive_link) |
+
 
 ---
 
