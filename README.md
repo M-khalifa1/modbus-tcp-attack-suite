@@ -31,8 +31,8 @@ This repository contains the source code for a **Modbus/TCP attack simulation su
 
 | Video | Description | Link |
 |-------|-------------|------|
-| **Part 1** | Compilation Tutorial | [YouTube](https://youtu.be/YOUR_VIDEO_ID_1) |
-| **Part 2** | Attack Execution Demo | [YouTube](https://youtu.be/YOUR_VIDEO_ID_2) |
+| **Part 1** | Compilation Tutorial | [Google drive]([https://youtu.be/YOUR_VIDEO_ID_1](https://drive.google.com/file/d/13p_EJs-P9c-XSILy_y-K5nmcICZMQA7r/view?usp=drive_link)) |
+| **Part 2** | Attack Execution Demo | [Google drive]([https://youtu.be/YOUR_VIDEO_ID_2](https://drive.google.com/file/d/1yPYEeGIPXdggdVxQZl42b1fW78FQ_svr/view?usp=drive_link)) |
 
 ---
 
@@ -44,13 +44,7 @@ modbus-tcp-attack-suite/
 ├── compile.bat          ← One-click compilation script
 ├── README.md            ← This file
 ├── LICENSE              ← MIT License
-└── images/              ← Screenshots from research
-    ├── modbussim_config.png
-    ├── normal_off_state.png
-    ├── normal_on_state.png
-    ├── active_attack.png
-    ├── post_attack.png
-    └── wireshark_capture.png
+
 ```
 
 ---
@@ -92,7 +86,7 @@ modbus-tcp-attack-suite/
 ## Step 2: Download This Repository
 
 ```bash
-git clone https://github.com/ASCL-PSU/modbus-tcp-attack-suite.git
+git clone https://github.com/M-khalifa1/modbus-tcp-attack-suite.git
 cd modbus-tcp-attack-suite
 ```
 
@@ -161,15 +155,6 @@ This section explains how to set up the complete testing environment as used in 
 2. Status bar should show: "Listening on port 502"
 3. Note your IP address (shown in window title or use `ipconfig`)
 
-### Step 5: Understanding the Display
-
-**Normal OFF State** - All coils cleared (0x0000):
-![Normal OFF State](images/normal_off_state.png)
-
-**Normal ON State** - All coils set (0xFFFF):
-![Normal ON State](images/normal_on_state.png)
-
----
 
 ## 🦈 Setting Up Wireshark (Traffic Capture)
 
@@ -201,8 +186,6 @@ Press Enter to apply.
 4. Save: File → Save As → `attack_capture.pcapng`
 
 ### Understanding Wireshark Capture
-
-![Wireshark Capture](images/wireshark_capture.png)
 
 **What you'll see:**
 - **Transaction ID** - Identifies request/response pairs
@@ -250,13 +233,9 @@ modbus_attack.exe 192.168.1.100
 
 **In ModBus_SIM:**
 - Watch coils toggle ON/OFF rapidly
-- See register values change to 1234
-
+- See register values change 
 **Active Attack** - Coils forced ON:
-![Active Attack](images/active_attack.png)
 
-**Post Attack** - System state after attack cycle:
-![Post Attack](images/post_attack.png)
 
 **In Wireshark:**
 - See all Modbus packets in plaintext
@@ -319,7 +298,3 @@ MIT License - See [LICENSE](LICENSE) file.
 Prince Sultan University, Riyadh, Saudi Arabia
 
 ---
-
-# 🙏 Acknowledgments
-
-This research was funded by the Research, Development, and Innovation Authority (RDIA), Kingdom of Saudi Arabia, with grant number 13382-psu-2023-PSNU-R-3-1-EI.
