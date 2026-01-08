@@ -141,7 +141,7 @@ This section explains how to set up the complete testing environment as used in 
 1. Go to **Setup** → **Ethernet TCP/IP Settings**
 2. Configure as shown:
 
-![ModBus_SIM Configuration](images/modbussim_config.png)
+![ModBus_SIM Configuration]
 
 | Setting | Value |
 |---------|-------|
